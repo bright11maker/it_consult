@@ -82,7 +82,7 @@ if(isset($_POST['submit'])){
         </h4>
       </div>
       <div class="form--sec">
-        <form action="contact_page.php" method="post">
+        <form action="" method="post">
           <input type="text" placeholder="Enter name" name="name" required />
           <input type="email" placeholder="Enter email" name="email" required />
           <input type="tel" placeholder="Phone number" name="number" required />
