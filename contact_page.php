@@ -1,3 +1,28 @@
+<?php
+
+if(isset($_POST['submit'])){
+
+  $clientName = $_POST['name'];
+  $clientEmail = $_POST['email'];
+  $clientbudget = $_POST['amount'];
+  $clientcompany = $_POST['company'];
+  $messageSubject = $_POST['subject'];
+  $message = $_POST['message'];
+
+  $to = "brightcgc11@gmail.com";
+  $body = "";
+
+  $body .= "From: ".$clientName. "\r\n"; 
+  $body .= "Email: ".$clientEmail. "\r\n";
+  $body .= "Message: ".$messageSubject. "\r\n";
+
+  mail($to, $messageSubject,$body); 
+
+}
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
