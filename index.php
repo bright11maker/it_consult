@@ -47,7 +47,7 @@
 
         <!-- navigation ends here -->
 <?php 
-include_once("navigation.php");
+include("navigation.php");
 ?>
 
         <div class="container">

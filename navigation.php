@@ -1,5 +1,5 @@
 
-        <div class="nav--before">
+<div class="nav--before">
 <div class="phone">
 <ion-icon name="call-outline"></ion-icon>
   +233 12 123 45678
