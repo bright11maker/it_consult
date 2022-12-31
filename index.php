@@ -25,7 +25,7 @@
     <div class="main--content">
       <header>
 
-<!--
+
         <nav>
           <div class="container">
             <div class="navbar--nav">
@@ -43,11 +43,11 @@
               </div>
             </div>
           </div>
-        </nav> -->
+        </nav> 
 
         <!-- navigation ends here -->
 <?php 
-include("navigation.php");
+ //include("navigation.php");
 ?>
 
         <div class="container">
