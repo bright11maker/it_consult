@@ -3,7 +3,8 @@
       "api/*.php": {
         "runtime": "vercel-php@0.5.2"
       },
-      "rewrites":[{
+      
+      "routes":[{
         "src": "/(.*)",
         "dest": "/api/index.php"
       }]
@@ -11,4 +12,5 @@
     }
   }
 
+  
   
